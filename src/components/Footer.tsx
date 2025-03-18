@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">联系方式</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>电话：400-123-4567</li>
-              <li>邮箱：contact@example.com</li>
-              <li>地址：北京市朝阳区xxx街道xxx号</li>
+              <li>电话：18601783420</li>
+              <li>邮箱：18601783420@163.com</li>
+              <li>地址：上海市闵行区纪鹤路128号A栋501</li>
             </ul>
           </div>
           

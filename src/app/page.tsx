@@ -42,25 +42,22 @@ export default function Home() {
       <Header />
       
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-center">
+      <section className="relative h-[520px] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-bg.jpg"
+            src="/images/ban.jpeg"
             alt="清洁服务"
             fill
-            className="object-cover"
+            className="object-cover z-10"
             priority
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         
-        <div className="container relative z-10 text-white">
-          <h1 className="text-5xl font-bold mb-6">
+        <div className="container relative z-10 text-white" style={{marginTop: "-226px"}}>
+          <h1 className="text-4xl font-bold mb-10">
             专业的清洁服务提供商
           </h1>
-          <p className="text-xl mb-8 max-w-2xl">
-            提供清运、保洁、收纳、消杀、灭鼠等全方位服务，让您的环境更加整洁卫生
-          </p>
           <Link href="/contact" className="btn-primary">
             立即预约
           </Link>

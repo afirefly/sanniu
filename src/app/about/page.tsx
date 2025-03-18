@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
@@ -54,47 +55,16 @@ export default function About() {
           {/* Our Team */}
           <section className="mb-20">
             <h2 className="text-3xl font-bold text-center mb-12">我们的团队</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <div className="w-full h-64 bg-gray-200"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">张经理</h3>
-                  <p className="text-gray-600">总经理</p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <div className="w-full h-64 bg-gray-200"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">李主管</h3>
-                  <p className="text-gray-600">服务主管</p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <div className="w-full h-64 bg-gray-200"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">王师傅</h3>
-                  <p className="text-gray-600">技术主管</p>
-                </div>
-              </div>
-              
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="aspect-w-1 aspect-h-1">
-                  <div className="w-full h-64 bg-gray-200"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">刘经理</h3>
-                  <p className="text-gray-600">客服经理</p>
-                </div>
-              </div>
-            </div>
+            <Image
+              src="/images/finish.jpg"
+              alt="团队"
+              width={0}
+              height={0}
+              sizes="100vw"
+              priority
+              className="w-full h-auto object-cover border-2 border-primary"
+            />
+            
           </section>
           
           {/* Company History */}
@@ -107,23 +77,23 @@ export default function About() {
                   <div>
                     <h3 className="font-semibold mb-2">公司成立</h3>
                     <p className="text-gray-600">
-                      公司正式成立，开始提供基础清洁服务
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 w-24 text-primary font-bold">2021年</div>
-                  <div>
-                    <h3 className="font-semibold mb-2">业务扩展</h3>
-                    <p className="text-gray-600">
-                      新增消杀、灭鼠等专业服务，服务范围不断扩大
+                      公司正式成立，开始提供搬运、清洁服务
                     </p>
                   </div>
                 </div>
                 
                 <div className="flex items-start">
                   <div className="flex-shrink-0 w-24 text-primary font-bold">2022年</div>
+                  <div>
+                    <h3 className="font-semibold mb-2">业务扩展</h3>
+                    <p className="text-gray-600">
+                      新增消杀、灭鼠、水冷机组保养等专业服务，服务范围不断扩大
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 w-24 text-primary font-bold">2023年</div>
                   <div>
                     <h3 className="font-semibold mb-2">服务升级</h3>
                     <p className="text-gray-600">
@@ -133,7 +103,7 @@ export default function About() {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-24 text-primary font-bold">2023年</div>
+                  <div className="flex-shrink-0 w-24 text-primary font-bold">2024年</div>
                   <div>
                     <h3 className="font-semibold mb-2">品牌建设</h3>
                     <p className="text-gray-600">

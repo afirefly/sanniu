@@ -33,7 +33,7 @@ export default function Contact() {
                     </svg>
                     <div>
                       <h3 className="font-semibold">电话</h3>
-                      <p className="text-gray-600">400-123-4567</p>
+                      <p className="text-gray-600">18601783420</p>
                     </div>
                   </div>
                   
@@ -53,7 +53,7 @@ export default function Contact() {
                     </svg>
                     <div>
                       <h3 className="font-semibold">邮箱</h3>
-                      <p className="text-gray-600">contact@example.com</p>
+                      <p className="text-gray-600">18601783420@163.com</p>
                     </div>
                   </div>
                   
@@ -79,7 +79,7 @@ export default function Contact() {
                     </svg>
                     <div>
                       <h3 className="font-semibold">地址</h3>
-                      <p className="text-gray-600">北京市朝阳区xxx街道xxx号</p>
+                      <p className="text-gray-600">上海市闵行区纪鹤路128号A栋501</p>
                     </div>
                   </div>
                 </div>
